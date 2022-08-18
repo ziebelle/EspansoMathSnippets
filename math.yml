@@ -1,0 +1,827 @@
+# espanso match file
+
+# For a complete introduction, visit the official docs at: https://espanso.org/docs/
+
+# You can use this file to define the base matches (aka snippets)
+# that will be available in every application when using espanso.
+
+# Matches are substitution rules: when you type the "trigger" string
+# it gets replaced by the "replace" string.
+matches:
+  # And much more! For more information, visit the docs: https://espanso.org/docs/
+  - trigger: "aligns#"
+    replace: "\\begin{align*}\n$|$\n\\end{align*}"
+
+  - trigger: "equations#"
+    replace: "\\begin{equation*}\n$|$\n\\end{equation*}"
+
+  - trigger: "align#"
+    replace: "\\begin{align}\n$|$\n\\end{align}"
+
+  - trigger: "equation#"
+    replace: "\\begin{equation}\n$|$\n\\end{equation}"
+
+  - trigger: "theorem#"
+    replace: "\\begin{theorem}\n$|$\n\\end{theorem}"
+
+  - trigger: "lemma#"
+    replace: "\\begin{lemma}\n$|$\n\\end{lemma}"
+
+  - trigger: "proof#"
+    replace: "\\begin{proof}\n$|$\n\\end{proof}"
+    
+  - trigger: "remark#"
+    replace: "\\begin{remark}\n$|$\n\\end{remark}"
+    
+  - trigger: "remarks#"
+    replace: "\\begin{remarks}\n$|$\n\\end{remarks}"
+
+  - trigger: "bar#"
+    replace: "\\bar{$|$}"
+
+  - trigger: "overline#"
+    replace: "\\overline{$|$}"
+
+  - trigger: "coloneqq#"
+    replace: "\\coloneqq"
+
+  - trigger: "argmin#"
+    replace: "\\argmin"
+
+  - trigger: "argmax#"
+    replace: "\\argmax"
+
+  - trigger: "sup#"
+    replace: "\\sup"
+
+  - trigger: "inf#"
+    replace: "\\inf"
+
+  - trigger: "abs#"
+    replace: "|$|$|"
+
+  - trigger: "pmatrix#"
+    replace: "\\begin{pmatrix}\n$|$\n\\end{pmatrix}"
+
+  - trigger: "cases#"
+    replace: "\\begin{cases}\n$|$\n\\end{cases}"
+
+  - trigger: "cdot#"
+    replace: "\\cdot"
+
+  - trigger: "dots#"
+    replace: "\\dots"
+
+  - trigger: "cos#"
+    replace: "\\cos"
+
+  - trigger: "sin#"
+    replace: "\\sin"
+
+  - trigger: "proposition#"
+    replace: "\\begin{proposition}\n$|$\n\\end{proposition}"
+
+  - trigger: "definition#"
+    replace: "\\begin{definition}\n$|$\n\\end{definition}"
+
+  - trigger: "corollary#"
+    replace: "\\begin{corollary}\n$|$\n\\end{corollary}"
+
+  - trigger: "itemize#"
+    replace: "\\begin{itemize}\n\\item$|$\n\\end{itemize}"
+
+  - trigger: "enumerate#"
+    replace: "\\begin{enumerate}\n\\item$|$\n\\end{enumerate}"
+
+  - trigger: "item#"
+    replace: "\\item"
+
+  - trigger: "theta#"
+    replace: "\\theta"
+
+  - trigger: "alpha#"
+    replace: "\\alpha"
+
+  - trigger: "Theta#"
+    replace: "\\Theta"
+
+  - trigger: "omega#"
+    replace: "\\omega"
+
+  - trigger: "Omega#"
+    replace: "\\Omega"
+
+  - trigger: "vartheta#"
+    replace: "\\vartheta"
+
+  - trigger: "beta#"
+    replace: "\\beta"
+
+  - trigger: "xi#"
+    replace: "\\xi"
+
+  - trigger: "gamma#"
+    replace: "\\gamma"
+
+  - trigger: "Gamma#"
+    replace: "\\Gamma"
+
+  - trigger: "iota#"
+    replace: "\\iota"
+
+  - trigger: "chi#"
+    replace: "\\chi"
+
+  - trigger: "zeta#"
+    replace: "\\zeta"
+
+  - trigger: "Delta#"
+    replace: "\\Delta"
+
+  - trigger: "delta#"
+    replace: "\\delta"
+
+  - trigger: "textit#"
+    replace: "\\textit{$|$}"
+
+  - trigger: "textbf#"
+    replace: "\\textbf{$|$}"
+
+  - trigger: "sigma#"
+    replace: "\\sigma"
+
+  - trigger: "quad#"
+    replace: "\\quad"
+
+  - trigger: "xRightarrow#"
+    replace: "\\xrightarrow[]{$|$}"
+
+  - trigger: "vbr#"
+    replace: "\\{$|$\\}"
+
+  - trigger: "obr#"
+    replace: "($|$)"
+
+  - trigger: "sqbr#"
+    replace: "[$|$]"
+
+  - trigger: "hobr#"
+    replace: "[$|$)"
+
+  - trigger: "hoch#"
+    replace: "^{$|$}"
+
+  - trigger: "ind#"
+    replace: "_{$|$}"
+
+  - trigger: "section#"
+    replace: "\\section{$|$}"
+
+  - trigger: "subsection#"
+    replace: "\\subsection{$|$}"
+
+  - trigger: "linner#"
+    replace: "\\left\\langle $|$, \\right\\rangle"
+    
+  - trigger: "inner#"
+    replace: "\\langle $|$, \\rangle"
+
+  - trigger: "R#"
+    replace: "\\mathbb{R}"
+    
+  - trigger: "mathcal#"
+    replace: "\\mathcal{$|$}"
+    
+  - trigger: "mathrm#"
+    replace: "\\mathrm{$|$}"
+    
+  - trigger: "P#"
+    replace: "\\mathbb{P}"
+    
+  - trigger: "frac#"
+    replace: "\\frac{$|$}{}"
+    
+  - trigger: "mathbb#"
+    replace: "\\mathbb{$|$}"
+    
+  - trigger: "mathbf#"
+    replace: "\\mathbf{$|$}"
+    
+  - trigger: "math#"
+    replace: "$$|$$"
+    
+  - trigger: "sim#"
+    replace: "\\sim"
+    
+  - trigger: "O#"
+    replace: "mathcal{O}"
+    
+  - trigger: "leq#"
+    replace: "\\leq"
+    
+  - trigger: "nabla#"
+    replace: "\\nabla"
+
+  - trigger: "normal#"
+    replace: "\\mathcal{N}($|$,)"
+
+  - trigger: "N#"
+    replace: "\\mathbb{N}"
+
+  - trigger: "phi#"
+    replace: "\\phi"
+
+  - trigger: "Phi#"
+    replace: "\\Phi"
+
+  - trigger: "psi#"
+    replace: "\\psi"
+
+  - trigger: "Psi#"
+    replace: "\\Psi"
+
+  - trigger: "kappa#"
+    replace: "\\kappa"
+
+  - trigger: "tilde#"
+    replace: "\\tilde{$|$}"
+
+  - trigger: "hat#"
+    replace: "\\hat{$|$}"
+
+  - trigger: "Lambda#"
+    replace: "\\Lambda"
+
+  - trigger: "lambda#"
+    replace: "\\lambda"
+
+  - trigger: "Lp#"
+    replace: "L^{p}($|$)"
+
+  - trigger: "L2#"
+    replace: "L^{2}($|$)"
+    
+  - trigger: "L2x#"
+    replace: "L^{2}($|$,)"
+
+  - trigger: "ccinf#"
+    replace: "C_c^{\\infty}($|$)"
+
+  - trigger: "infty#"
+    replace: "\\infty"
+
+  - trigger: "intd#"
+    replace: "\\mathrm{d}"
+
+  - trigger: "mu#"
+    replace: "\\mu"
+
+  - trigger: "int#"
+    replace: "\\int_{$|$}"
+
+  - trigger: "sum#"
+    replace: "\\sum_{$|$=1}^n"
+
+  - trigger: "newl#"
+    replace: "\\\\"
+
+  - trigger: "scov#"
+    replace: "\\mathrm{Cov}"
+
+  - trigger: "var#"
+    replace: "\\mathrm{Var}"
+
+  - trigger: "E#"
+    replace: "\\mathbb{E}"
+
+  - trigger: "geq#"
+    replace: "\\geq"
+
+  - trigger: "lr#"
+    replace: "\\left($|$\\right)"
+
+  - trigger: "left#"
+    replace: "\\left"
+
+  - trigger: "right#"
+    replace: "\\right"
+
+  - trigger: "exp#"
+    replace: "\\exp($|$)"
+
+  - trigger: "cup#"
+    replace: "\\cup"
+
+  - trigger: "cap#"
+    replace: "\\cap"
+
+  - trigger: "equiv#"
+    replace: "\\equiv"
+
+  - trigger: "eta#"
+    replace: "\\eta"
+
+  - trigger: "varepsilon#"
+    replace: "\\varepsilon"
+    
+  - trigger: "epsilon#"
+    replace: "\\epsilon"
+    
+  - trigger: "par#"
+    replace: "\\par"
+    
+  - trigger:  "ref#"
+    replace: "\\ref{$|$}"
+    
+  - trigger: "cite#"
+    replace: "\\cite{$|$}"
+    
+  - trigger: "langle#"
+    replace: "\\langle"
+    
+  - trigger: "rangle#"
+    replace: "\\rangle"
+
+  - trigger: "rightarrow#"
+    replace: "\\rightarrow"
+    
+  - trigger: "lnorm#"
+    replace: "\\left\\Vert $|$ \\right\\Vert"
+    
+  - trigger: "vert#"
+    replace: "\\Vert"
+    
+  - trigger: "in#"
+    replace: "\\in"
+
+# New
+  - trigger: "oplus#"
+    replace: "\\oplus"
+    
+  - trigger: "include#"
+    replace: "\\include{$|$}"
+    
+  - trigger: "varphi#"
+    replace: "\\varphi"
+    
+  - trigger: "max#"
+    replace: "\\max{$|$}"
+    
+  - trigger: "dot#"
+    replace: "\\dot{$|$}"
+    
+  - trigger: "subset#"
+    replace: "\\subset"
+    
+  - trigger: "times#"
+    replace: "\\times"
+    
+  - trigger: "label#"
+    replace: "\\label{$|$}"
+    
+  - trigger: "colon#"
+    replace: "\\colon"
+    
+  - trigger: "top#"
+    replace: "\\top"
+    
+  - trigger: "c#"
+    replace: "{$|$}"
+    
+  - trigger: "vertiii#"
+    replace: "\\vertiii{$|$}"
+    
+  - trigger: "approx#"
+    replace: "\\approx"
+    
+  - trigger: "norm#"
+    replace: "\\Vert $|$ \\Vert"
+    
+  - trigger: "tcolorbox#"
+    replace: "\\begin{tcolorbox}[breakable]\n$|$\n\\end{tcolorbox}"
+    
+  - trigger: "clemma#"
+    replace: "\\begin{tcolorbox}[breakable, colback=blue!10]\\begin{lemma}\n$|$\n\\end{lemma}\\end{tcolorbox}"
+  - trigger: "cproposition#"
+    replace: "\\begin{tcolorbox}[breakable, colback=blue!10]\\begin{proposition}\n$|$\n\\end{proposition}\\end{tcolorbox}"
+    
+  - trigger: "cremark#"
+    replace: "\\begin{tcolorbox}[breakable]\\begin{remark}\n$|$\n\\end{remark}\\end{tcolorbox}"
+    
+  - trigger: "ctheorem#"
+    replace: "\\begin{tcolorbox}[breakable, colback=blue!10]\\begin{theorem}\n$|$\n\\end{theorem}\\end{tcolorbox}"
+    
+  - trigger: "cdefinition#"
+    replace: "\\begin{tcolorbox}[breakable, colback=green!10]\\begin{definition}\n$|$\n\\end{definition}\\end{tcolorbox}"
+    
+  - trigger: "matrix#"
+    replace: "\\begin{array}{ll}\n $|$ & \\\\ \n & \\\\ \n \\end{array}"
+    
+  - trigger: "example#"
+    replace: "\\begin{example}\n$|$\n\\end{example}"
+ 
+  - trigger: "cexample#"
+    replace: "\\begin{tcolorbox}[breakable, colback=orange!10]\\begin{example}\n$|$\n\\end{example}\\end{tcolorbox}"
+
+  - trigger: "partial#"
+    replace: "\\partial"
+
+  - trigger: "Rd#"
+    replace: "\\mathbb{R}^{d}"
+ 
+  - trigger: "rho#"
+    replace: "\\rho"
+   
+  - trigger: "land#"
+    replace: "\\land"
+   
+  - trigger: "pi#"
+    replace: "\\pi"
+   
+  - trigger: "log#"
+    replace: "\\log"
+   
+  - trigger: "and#"
+    replace: "&"
+   
+  - trigger: "sqrt#"
+    replace: "\\sqrt"
+    
+  - trigger: "highlight#"
+    replace: "\\begin{highlight}\n$|$\n\\end{highlight}"
+    
+  - trigger: "otimes#"
+    replace: "\\otimes"
+    
+  - trigger: "odot#"
+    replace: "\\odot"
+    
+  - trigger: "noindent#"
+    replace: "\\noindent"
+    
+  - trigger: "to#"
+    replace: "\\to"
+
+  - trigger: "setminus#"
+    replace: "\\setminus"
+
+  - trigger: "aleph#"
+    replace: "\\aleph"
+
+  - trigger: "beth#"
+    replace: "\\beth"
+
+  - trigger: "daleth#"
+    replace: "\\daleth"
+
+  - trigger: "gimel#"
+    replace: "\\gimel"
+
+  - trigger: "nu#"
+    replace: "\\nu"
+
+  - trigger: "tau#"
+    replace: "\\tau"
+
+  - trigger: "upsilon#"
+    replace: "\\upsilon"
+
+  - trigger: "digamma#"
+    replace: "\\digamma"
+
+  - trigger: "varkappa#"
+    replace: "\\varkappa"
+
+  - trigger: "varpi#"
+    replace: "\\varpi"
+
+  - trigger: "varrho#"
+    replace: "\\varrho"
+
+  - trigger: "varsigma#"
+    replace: "\\varsigma"
+
+  - trigger: "Pi#"
+    replace: "\\Pi"
+
+  - trigger: "Sigma#"
+    replace: "\\Sigma"
+
+  - trigger: "Upsilon#"
+    replace: "\\Upsilon"
+
+  - trigger: "Xi#"
+    replace: "\\Xi"
+
+  - trigger: "lfloor#"
+    replace: "\\lfloor"
+
+  - trigger: "rfloor#"
+    replace: "\\rfloor"
+
+  - trigger: "lceil#"
+    replace: "\\lceil"
+
+  - trigger: "rceil#"
+    replace: "\\rceil"
+
+  - trigger: "Uparrow#"
+    replace: "\\Uparrow"
+
+  - trigger: "uparrow#"
+    replace: "\\uparrow"
+
+  - trigger: "Downarrow#"
+    replace: "\\Downarrow"
+
+  - trigger: "downarrow#"
+    replace: "\\downarrow"
+
+  - trigger: "llcorner#"
+    replace: "\\llcorner"
+
+  - trigger: "lrcorner#"
+    replace: "\\lrcorner"
+
+  - trigger: "ulcorner#"
+    replace: "\\ulcorner"
+
+  - trigger: "urcorner#"
+    replace: "\\urcorner"
+
+  - trigger: "prod#"
+    replace: "\\prod"
+
+  - trigger: "coprod#"
+    replace: "\\coprod"
+
+  - trigger: "oint#"
+    replace: "\\oint"
+
+  - trigger: "iint#"
+    replace: "\\iint"
+
+  - trigger: "biguplus#"
+    replace: "\\biguplus"
+
+  - trigger: "bigcap#"
+    replace: "\\bigcap"
+
+  - trigger: "bigcup#"
+    replace: "\\bigcup"
+
+  - trigger: "bigoplus#"
+    replace: "\\bigoplus"
+
+  - trigger: "bigotimes#"
+    replace: "\\bigotimes"
+
+  - trigger: "bigodot#"
+    replace: "\\bigodot"
+
+  - trigger: "bigvee#"
+    replace: "\\bigvee"
+
+  - trigger: "bigwedge#"
+    replace: "\\bigwedge"
+
+  - trigger: "bigsqcup#"
+    replace: "\\bigsqcup"
+
+  - trigger: "arccos#"
+    replace: "\\arccos"
+
+  - trigger: "arcsin#"
+    replace: "\\arcsin"
+
+  - trigger: "cosh#"
+    replace: "\\cosh"
+
+  - trigger: "arctan#"
+    replace: "\\arctan"
+
+  - trigger: "arg#"
+    replace: "\\arg"
+
+  - trigger: "cot#"
+    replace: "\\cot"
+
+  - trigger: "coth#"
+    replace: "\\coth"
+
+  - trigger: "star#"
+    replace: "\\star"
+
+  - trigger: "ast#"
+    replace: "\\ast"
+
+  - trigger: "circ#"
+    replace: "\\circ"
+
+  - trigger: "bullet#"
+    replace: "\\bullet"
+
+  - trigger: "diamond#"
+    replace: "\\diamond"
+
+  - trigger: "div#"
+    replace: "\\div"
+
+  - trigger: "centerdot#"
+    replace: "\\centerdot"
+
+  - trigger: "circledast#"
+    replace: "\\circledast"
+
+  - trigger: "circledcirc#"
+    replace: "\\circledcirc"
+
+  - trigger: "cong#"
+    replace: "\\cong"
+
+  - trigger: "neq#"
+    replace: "\\neq"
+
+  - trigger: "simeq#"
+    replace: "\\simeq"
+
+  - trigger: "asymp#"
+    replace: "\\asymp"
+
+  - trigger: "propto#"
+    replace: "\\propto"
+
+  - trigger: "approxeq#"
+    replace: "\\approxeq"
+
+  - trigger: "backsimeq#"
+    replace: "\\backsimeq"
+
+  - trigger: "triangleeq#"
+    replace: "\\triangleeq"
+
+  - trigger: "odot#"
+    replace: "\\odot"
+
+  - trigger: "ominus#"
+    replace: "\\ominus"
+
+  - trigger: "oplus#"
+    replace: "\\oplus"
+
+  - trigger: "otimes#"
+    replace: "\\otimes"
+
+  - trigger: "prec#"
+    replace: "\\prec"
+
+  - trigger: "preceq#"
+    replace: "\\preceq"
+
+  - trigger: "ll#"
+    replace: "\\ll"
+
+  - trigger: "subseteq#"
+    replace: "\\subseteq"
+
+  - trigger: "dashv#"
+    replace: "\\dashv"
+
+  - trigger: "lessapprox#"
+    replace: "\\lessapprox"
+
+  - trigger: "lesssim#"
+    replace: "\\lesssim"
+
+  - trigger: "eqslantless#"
+    replace: "\\eqslantless"
+
+  - trigger: "precsim#"
+    replace: "\\precsim"
+
+  - trigger: "precapprox#"
+    replace: "\\precapprox"
+
+  - trigger: "trianglelefteq#"
+    replace: "\\trianglelefteq"
+
+  - trigger: "nleq#"
+    replace: "\\nleq"
+
+  - trigger: "nleqslant#"
+    replace: "\\nleqslant"
+
+  - trigger: "nless#"
+    replace: "\\nless"
+
+  - trigger: "nprec#"
+    replace: "\\nprec"
+
+  - trigger: "npreceq#"
+    replace: "\\npreceq"
+
+  - trigger: "precnapprox#"
+    replace: "\\precnapprox"
+
+  - trigger: "precnsim#"
+    replace: "\\precnsim"
+
+  - trigger: "lnapprox#"
+    replace: "\\lnapprox"
+
+  - trigger: "lneq#"
+    replace: "\\lneq"
+
+  - trigger: "lneqq#"
+    replace: "\\lneqq"
+
+  - trigger: "lnsim#"
+    replace: "\\lnsim"
+
+  - trigger: "lvertneqq#"
+    replace: "\\lvertneqq"
+
+  - trigger: "uplus#"
+    replace: "\\uplus"
+
+  - trigger: "sqcap#"
+    replace: "\\sqcap"
+
+  - trigger: "sqcup#"
+    replace: "\\sqcup"
+
+  - trigger: "wedge#"
+    replace: "\\wedge"
+
+  - trigger: "vee#"
+    replace: "\\vee"
+
+  - trigger: "dagger#"
+    replace: "\\dagger"
+
+  - trigger: "ddagger#"
+    replace: "\\ddagger"
+
+  - trigger: "bot#"
+    replace: "\\bot"
+
+  - trigger: "succ#"
+    replace: "\\succ"
+
+  - trigger: "succeq#"
+    replace: "\\succeq"
+
+  - trigger: "gg#"
+    replace: "\\gg"
+
+  - trigger: "circ#"
+    replace: "\\circ"
+
+  - trigger: "lim#"
+    replace: "\\lim"
+
+  - trigger: "mathscr#"
+    replace: "\\mathscr{$|$}"
+    
+  - trigger: "mathfrac#"
+    replace: "\\mathfrac{$|$}"
+    
+  - trigger: "framed#"
+    replace: "\\begin{framed}\n$|$\n\\end{framed}"
+    
+  - trigger: "indic#"
+    replace: "\\mathbbm{1}"
+    
+  - trigger: "red#"
+    replace: "{\\color{red} $|$}"
+    
+  - trigger: "purple#"
+    replace: "{\\color{purple} $|$}"
+    
+  - trigger: "green#"
+    replace: "{\\color{green} $|$}"
+    
+  - trigger: "blue#"
+    replace: "{\\color{blue} $|$}"
+    
+  - trigger: "black#"
+    replace: "{\\color{black} $|$}"
+    
+  - trigger: "exists#"
+    replace: "\\exists"
+    
+  - trigger: "hookrightarrow#"
+    replace: "\\hookrightarrow"
+    
+  - trigger: "text#"
+    replace: "\\text{ $|$ }"
+    
+
+    
+
+
+
+
+
+
+
