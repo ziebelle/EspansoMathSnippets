@@ -1,4 +1,5 @@
 # EspansoMathSnippets
-Trigger-Replace pairs for faster LateX-using espanso.
+Trigger-Replace pairs for faster LateX using Espanso.
+
 
 
