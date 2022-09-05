@@ -19,4 +19,5 @@ Note that:
 - Choices may depend on the keyboard layout.
 - It might be useful to use a third party application in order to rebind some key. [Example: Rebind # to Caps Lock] (c.f. Sharpkeys on Windows)
 
-
+## Leaving brackets
+Espanso does not at this moment provide the same possibility to create muliple options for hirarchical cursor placement or other macro utility. This, can be an issue when trying to leave brackets without moving your hands. This problem can be circumvented by using an additional program like Auto Hotkey. The repository contains a simple examplary autohotkey script as a proof of concept. 
