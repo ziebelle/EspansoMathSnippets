@@ -12,5 +12,9 @@ Trigger-Replace pairs for faster LateX using Espanso.
 ## Tabs and spaces
 Espanso assumes that a tab is a character of length one. In reality, some text editors convert tabs to a different number of spaces for example 2 or 4. This leads to an incorrect calculation of the length of the text that shall be replaced. 
 Example: The word Theta\t will be replaced by Th\theta as the tab is replaced by 2 spaces. 
+**Workaround** This issue can be avoided by using a different character than tab as a trigger.
+Note that:
+- Choices may depend on the keyboard layout.
+- It might be useful to use a third party application in order to rebind some key. [Example: Rebind # to Caps Lock] (c.f. Sharpkeys on Windows)
 
 
