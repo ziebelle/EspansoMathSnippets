@@ -76,6 +76,12 @@ matches:
   - trigger: "definition#"
     replace: "\\begin{definition}\n$|$\n\\end{definition}"
 
+  - trigger: "assumption#"
+    replace: "\\begin{assumption}\n$|$\n\\end{assumption}"
+
+  - trigger: "conjecture#"
+    replace: "\\begin{conjecture}\n$|$\n\\end{conjecture}"
+
   - trigger: "corollary#"
     replace: "\\begin{corollary}\n$|$\n\\end{corollary}"
 
@@ -346,7 +352,6 @@ matches:
   - trigger: "in#"
     replace: "\\in"
 
-# New
   - trigger: "oplus#"
     replace: "\\oplus"
     
@@ -661,9 +666,6 @@ matches:
   - trigger: "oplus#"
     replace: "\\oplus"
 
-  - trigger: "otimes#"
-    replace: "\\otimes"
-
   - trigger: "prec#"
     replace: "\\prec"
 
@@ -772,6 +774,12 @@ matches:
   - trigger: "lim#"
     replace: "\\lim"
 
+  - trigger: "liminf#"
+    replace: "\\liminf"
+
+  - trigger: "limsup#"
+    replace: "\\limsup"
+
   - trigger: "mathscr#"
     replace: "\\mathscr{$|$}"
     
@@ -807,7 +815,30 @@ matches:
     
   - trigger: "text#"
     replace: "\\text{ $|$ }"
-    
+
+  - trigger: "big#"
+    replace: "\\big"
+
+  - trigger: "nmath#"
+    replace: "/math"
+
+  - trigger: "xrightarrow#"
+    replace: "\\xrightarrow{$|$}"
+
+  - trigger: "begin#"
+    replace: "\\begin{$|$}\n\n\\end{}"
+
+  - trigger: "newpage#"
+    replace: "\\newpage"
+
+  - trigger: "subsubsection#"
+    replace: "\\subsubsection"
+
+
+
+
+
+
 
     
 
