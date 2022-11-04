@@ -834,6 +834,14 @@ matches:
   - trigger: "subsubsection#"
     replace: "\\subsubsection"
 
+  - trigger: "nonumber#"
+    replace: "\\nonumber"
+
+  - trigger: "cref#"
+    replace: "\cref{}"
+
+
+
 
 
 
