@@ -4,6 +4,9 @@ matches:
   - trigger: "aligns#"
     replace: "\\begin{align*}\n$|$\n\\end{align*}"
 
+  - trigger: "aligned#"
+    replace: "\\begin{aligned}\n$|$\n\\end{aligned}"
+
   - trigger: "equations#"
     replace: "\\begin{equation*}\n$|$\n\\end{equation*}"
 
@@ -447,9 +450,6 @@ matches:
   - trigger: "highlight#"
     replace: "\\begin{highlight}\n$|$\n\\end{highlight}"
     
-  - trigger: "otimes#"
-    replace: "\\otimes"
-    
   - trigger: "odot#"
     replace: "\\odot"
     
@@ -590,6 +590,9 @@ matches:
 
   - trigger: "arcsin#"
     replace: "\\arcsin"
+
+  - trigger: "otimes#"
+    replace: "\\otimes"
 
   - trigger: "cosh#"
     replace: "\\cosh"
@@ -768,9 +771,6 @@ matches:
   - trigger: "gg#"
     replace: "\\gg"
 
-  - trigger: "circ#"
-    replace: "\\circ"
-
   - trigger: "lim#"
     replace: "\\lim"
 
@@ -838,7 +838,48 @@ matches:
     replace: "\\nonumber"
 
   - trigger: "cref#"
-    replace: "\cref{}"
+    replace: "\\cref{$|$}"
+
+  - trigger: "Cref#"
+    replace: "\\Cref{$|$}"
+
+  - trigger: "eqref#"
+    replace: "\\eqref{$|$}"
+
+  - trigger: "mmath#"
+    replace: "$$$|$$$"
+
+  - trigger: "ell#"
+    replace: "\\ell"
+
+  - trigger: "pm#"
+    replace: "\\pm"
+
+  - trigger: "iff#"
+    replace: "\\quad\\Longleftrightarrow\\quad"
+
+  - trigger: "mapsto#"
+    replace: "\\mapsto"
+
+  - trigger: "forall#"
+    replace: "\\forall"
+
+  - trigger: "implies#"
+    replace: "\\Longrightarrow"
+
+  - trigger: "largeo#"
+    replace: "\\mathcal{O}"
+
+  - trigger: "obsq#"
+    replace: "```ad-Question"
+
+  - trigger: "obsa#"
+    replace: "```ad-Answer"
+
+
+
+
+
 
 
 
