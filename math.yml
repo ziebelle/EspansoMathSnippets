@@ -885,6 +885,10 @@ matches:
   - trigger: "obsi#"
     replace: "```ad-Idea\n"
 
+  - trigger: "obse#"
+    replace: "```ad-Examples\n"
+
+
 
 
 
