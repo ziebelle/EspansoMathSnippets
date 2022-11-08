@@ -445,7 +445,7 @@ matches:
     replace: "&"
    
   - trigger: "sqrt#"
-    replace: "\\sqrt{}"
+    replace: "\\sqrt{$|$}"
     
   - trigger: "highlight#"
     replace: "\\begin{highlight}\n$|$\n\\end{highlight}"
