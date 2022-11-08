@@ -879,6 +879,9 @@ matches:
   - trigger: "obsr#"
     replace: "```ad-Result\n"
 
+  - trigger: "obsc#"
+    replace: "```ad-Conjecture\n"
+
 
 
 
