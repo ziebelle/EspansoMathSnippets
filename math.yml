@@ -882,6 +882,9 @@ matches:
   - trigger: "obsc#"
     replace: "```ad-Conjecture\n"
 
+  - trigger: "obsi#"
+    replace: "```ad-Idea\n"
+
 
 
 
