@@ -871,13 +871,13 @@ matches:
     replace: "\\mathcal{O}"
 
   - trigger: "obsq#"
-    replace: "```ad-Question"
+    replace: "```ad-Question\n"
 
   - trigger: "obsa#"
-    replace: "```ad-Answer"
+    replace: "```ad-Answer\n"
 
   - trigger: "obsr#"
-    replace: "```ad-Result"
+    replace: "```ad-Result\n"
 
 
 
