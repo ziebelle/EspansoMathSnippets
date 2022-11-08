@@ -445,7 +445,7 @@ matches:
     replace: "&"
    
   - trigger: "sqrt#"
-    replace: "\\sqrt"
+    replace: "\\sqrt{}"
     
   - trigger: "highlight#"
     replace: "\\begin{highlight}\n$|$\n\\end{highlight}"
@@ -875,6 +875,9 @@ matches:
 
   - trigger: "obsa#"
     replace: "```ad-Answer"
+
+  - trigger: "obsr#"
+    replace: "```ad-Result"
 
 
 
