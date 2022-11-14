@@ -888,6 +888,9 @@ matches:
   - trigger: "obse#"
     replace: "```ad-Examples\n"
 
+  - trigger: "obsp#"
+    replace: "```ad-Proof\n"
+
 
 
 
