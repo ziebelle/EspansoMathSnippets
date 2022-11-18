@@ -891,6 +891,10 @@ matches:
   - trigger: "obsp#"
     replace: "```ad-Proof\n"
 
+  - trigger: "qedhere#"
+    replace: "\\qedhere"
+
+
 
 
 
