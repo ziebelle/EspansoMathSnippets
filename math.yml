@@ -894,6 +894,9 @@ matches:
   - trigger: "qedhere#"
     replace: "\\qedhere"
 
+  - trigger: "frame#"
+    replace: "\\begin{frame}\n$|$\n\\end{frame}"
+
 
 
 
