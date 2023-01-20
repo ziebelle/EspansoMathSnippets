@@ -897,7 +897,7 @@ matches:
   - trigger: "frame#"
     replace: "\\begin{frame}\n$|$\n\\end{frame}"
 
-  - trigger: "pairing#"
+  - trigger: "pair#"
     replace: "\\paring{$|$}{ }"
 
 
