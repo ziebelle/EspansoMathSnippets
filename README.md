@@ -6,7 +6,7 @@ Trigger-Replace pairs for faster LateX using Espanso.
 - Download and install espanso [https://espanso.org/install/]
 - Navigate to espanso settings folder [cmd: espanso path]
 - Paste math.yml file into the match folder
-- Test if it works by opening some editor and typing theorem\t
+- Test if it works by opening some editor and typing theorem\t or theorem# depending on the version
 
 # Known issues
 ## Tabs and spaces
