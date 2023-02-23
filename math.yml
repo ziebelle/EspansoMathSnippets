@@ -900,6 +900,9 @@ matches:
   - trigger: "pair#"
     replace: "\\pairing{$|$}{ }"
 
+  - trigger: "fv#"
+    replace: "\\fv"
+
 
 
 
