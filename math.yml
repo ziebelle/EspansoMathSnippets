@@ -805,7 +805,10 @@ matches:
     replace: "{\\color{blue} $|$}"
 
   - trigger: "fblue#"
-    replace: "{\\color{fblue} $|$}"  
+    replace: "{\\color{fblue} $|$}"
+
+  - trigger: "hblue#"
+    replace: "{\\color{hblue} $|$}"  
     
   - trigger: "black#"
     replace: "{\\color{black} $|$}"
