@@ -803,6 +803,9 @@ matches:
     
   - trigger: "blue#"
     replace: "{\\color{blue} $|$}"
+
+  - trigger: "fblue#"
+    replace: "{\\color{fblue} $|$}"  
     
   - trigger: "black#"
     replace: "{\\color{black} $|$}"
