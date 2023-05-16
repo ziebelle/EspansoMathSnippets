@@ -336,6 +336,9 @@ matches:
     
   - trigger: "cite#"
     replace: "\\cite{$|$}"
+
+  - trigger: "citet#"
+    replace: "\\citet{$|$}"
     
   - trigger: "langle#"
     replace: "\\langle"
