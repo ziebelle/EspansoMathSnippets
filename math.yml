@@ -339,6 +339,12 @@ matches:
 
   - trigger: "citet#"
     replace: "\\citet{$|$}"
+
+  - trigger: "edit#"
+    replace: "\\edit{$|$}"
+
+  - trigger: "editin#"
+    replace: "\\edit[inline]{$|$}"
     
   - trigger: "langle#"
     replace: "\\langle"
