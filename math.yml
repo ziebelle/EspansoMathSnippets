@@ -92,7 +92,7 @@ matches:
     replace: "\\begin{itemize}\n\\item$|$\n\\end{itemize}"
 
   - trigger: "enumerate#"
-    replace: "\\begin{enumerate}[(i)]\n\\item$|$\n\\end{enumerate}"
+    replace: "\\begin{enumerate}\n\\item$|$\n\\end{enumerate}"
 
   - trigger: "item#"
     replace: "\\item"
