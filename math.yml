@@ -166,7 +166,7 @@ matches:
   - trigger: "sqbr#"
     replace: "[$|$]"
 
-  - trigger: "hobr#"
+  - trigger: "halfobr#"
     replace: "[$|$)"
 
   - trigger: "hoch#"
@@ -181,6 +181,12 @@ matches:
   - trigger: "subsection#"
     replace: "\\subsection{$|$}"
 
+  - trigger: "underline#"
+    replace: "\\underline{$|$}"
+
+  - trigger: "input#"
+    replace: "\\input{$|$}"
+
   - trigger: "linner#"
     replace: "\\left\\langle $|$, \\right\\rangle"
     
@@ -189,6 +195,9 @@ matches:
 
   - trigger: "R#"
     replace: "\\mathbb{R}"
+
+  - trigger: "C#"
+    replace: "\\mathbb{C}"
     
   - trigger: "mathcal#"
     replace: "\\mathcal{$|$}"
@@ -651,8 +660,26 @@ matches:
   - trigger: "neq#"
     replace: "\\neq"
 
+  - trigger: "empty#"
+    replace: "\\emptyset"
+
+  - trigger: "emptyset#"
+    replace: "\\emptyset"
+
+  - trigger: "includegraphics#"
+    replace: "\\includegraphics[]{$|$}"
+
   - trigger: "simeq#"
     replace: "\\simeq"
+
+  - trigger: "upharpoonright#"
+    replace: "\\upharpoonright"
+
+  - trigger: "endl#"
+    replace: "\\\\"
+
+  - trigger: "underbrace#"
+    replace: "\\underbrace{$|$}"
 
   - trigger: "asymp#"
     replace: "\\asymp"
@@ -674,9 +701,6 @@ matches:
 
   - trigger: "ominus#"
     replace: "\\ominus"
-
-  - trigger: "oplus#"
-    replace: "\\oplus"
 
   - trigger: "prec#"
     replace: "\\prec"
@@ -792,11 +816,20 @@ matches:
   - trigger: "mathscr#"
     replace: "\\mathscr{$|$}"
     
-  - trigger: "mathfrac#"
-    replace: "\\mathfrac{$|$}"
+  - trigger: "mathfrak#"
+    replace: "\\mathfrak{$|$}"
     
   - trigger: "framed#"
     replace: "\\begin{framed}\n$|$\n\\end{framed}"
+
+  - trigger: "mdframed#"
+    replace: "\\begin{mdframed}\n$|$\n\\end{mdframed}"
+
+  - trigger: "figure#"
+    replace: "\\begin{figure}\n$|$\n\\end{figure}"
+
+  - trigger: "center#"
+    replace: "\\begin{center}\n$|$\n\\end{center}"
     
   - trigger: "indic#"
     replace: "\\mathbbm{1}"
@@ -862,7 +895,7 @@ matches:
     replace: "\\eqref{$|$}"
 
   - trigger: "mmath#"
-    replace: "$$$|$$$"
+    replace: "$$\n$|$\n$$"
 
   - trigger: "ell#"
     replace: "\\ell"
