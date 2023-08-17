@@ -951,7 +951,8 @@ matches:
   - trigger: "fv#"
     replace: "\\fv"
 
-
+  - trigger: "check#"
+    replace: "\\check{$|$}" 
 
 
 
