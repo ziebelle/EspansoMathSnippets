@@ -849,6 +849,9 @@ matches:
   - trigger: "fblue#"
     replace: "{\\color{fblue} $|$}"
 
+  - trigger: "hcolor#"
+    replace: "{\\color{hcolor} $|$}"
+
   - trigger: "hblue#"
     replace: "{\\color{hblue} $|$}"  
     
@@ -952,7 +955,7 @@ matches:
     replace: "\\fv"
 
   - trigger: "check#"
-    replace: "\\check{$|$}" 
+    replace: "\\check{$|$}"
 
 
 
