@@ -35,7 +35,7 @@ matches:
     replace: "\\begin{concept}\n$|$\n\\end{concept}"
 
   - trigger: "rule#"
-    replace: "\\begin{rule}\n$|$\n\\end{rule}"
+    replace: "\\begin{rul}\n$|$\n\\end{rul}"
 
   - trigger: "bar#"
     replace: "\\bar{$|$}"
