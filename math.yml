@@ -355,6 +355,9 @@ matches:
   - trigger: "citet#"
     replace: "\\citet{$|$}"
 
+  - trigger: "nameref#"
+    replace: "\\nameref{$|$}"
+
   - trigger: "edit#"
     replace: "\\edit{$|$}"
 
