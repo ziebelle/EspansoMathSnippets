@@ -19,6 +19,9 @@ matches:
   - trigger: "theorem#"
     replace: "\\begin{theorem}\n$|$\n\\end{theorem}"
 
+  - trigger: "step#"
+    replace: "\\begin{step}\n$|$\n\\end{step}"
+
   - trigger: "lemma#"
     replace: "\\begin{lemma}\n$|$\n\\end{lemma}"
 
