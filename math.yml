@@ -969,6 +969,17 @@ matches:
   - trigger: "check#"
     replace: "\\check{$|$}"
 
+  - trigger: "t#"
+    replace: "{{mydate}},{{mytime}}:"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%m/%d/%Y"
+      - name: mytime
+        type: date
+        params:
+          format: "%_H:%M:%S"
 
 
 
