@@ -970,7 +970,7 @@ matches:
     replace: "\\check{$|$}"
 
   - trigger: "t#"
-    replace: "{{mydate}},{{mytime}}:"
+    replace: "{{mydate}},{{mytime}}: "
     vars:
       - name: mydate
         type: date
