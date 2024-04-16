@@ -981,6 +981,9 @@ matches:
         params:
           format: "%_H:%M:%S"
 
+  - trigger: "comment#"
+    replace: "\\begin{comment}\n$|$\n\\end{comment}"
+
 
 
 
