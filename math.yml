@@ -25,6 +25,9 @@ matches:
   - trigger: "lemma#"
     replace: "\\begin{lemma}\n$|$\n\\end{lemma}"
 
+  - trigger: "question#"
+    replace: "\\begin{question}\n$|$\n\\end{question}"
+
   - trigger: "proof#"
     replace: "\\begin{proof}\n$|$\n\\end{proof}"
     
