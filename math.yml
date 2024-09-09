@@ -988,7 +988,7 @@ matches:
     replace: "\\begin{comment}\n$|$\n\\end{comment}"
 
   - trigger: "samplesize#"
-    replace: "\\samplesiize"
+    replace: "\\samplesize"
 
   - trigger: "dimension#"
     replace: "\\dimension"
