@@ -996,6 +996,9 @@ matches:
   - trigger: "iteration#"
     replace: "\\iteration"
 
+  - trigger: "truesignal#"
+    replace: "\\truesignal"
+
   - trigger: "designmatrix#"
     replace: "\\designmatrix"
 
