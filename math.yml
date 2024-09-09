@@ -987,6 +987,62 @@ matches:
   - trigger: "comment#"
     replace: "\\begin{comment}\n$|$\n\\end{comment}"
 
+  - trigger: "samplesize#"
+    replace: "\\samplesiize"
+
+  - trigger: "dimension#"
+    replace: "\\dimension"
+
+  - trigger: "iteration#"
+    replace: "\\iteration"
+
+  - trigger: "designmatrix#"
+    replace: "\\designmatrix"
+
+  - trigger: "response#"
+    replace: "\\response"
+
+  - trigger: "noiselevel#"
+    replace: "\\noiselevel"
+
+  - trigger: "noise#"
+    replace: "\\noise"
+
+  - trigger: "stoptime#"
+    replace: "\\stoptime"
+
+  - trigger: "balancedtime#"
+    replace: "\\balancedtime"
+
+  - trigger: "estimator#"
+    replace: "\\estimator"
+
+  - trigger: "threshold#"
+    replace: "\\threshold"
+
+  - trigger: "package#"
+    replace: "\\package"
+
+  - trigger: "learningrate#"
+    replace: "\\learningrate"
+
+  - trigger: "strongbias#"
+    replace: "\\strongbias{$|$}"
+
+  - trigger: "weakbias#"
+    replace: "\\weakbias{$|$}"
+
+  - trigger: "strongvariance#"
+    replace: "\\strongvariance"
+
+  - trigger: "weakvariance#"
+    replace: "\\weakvariance"
+
+  - trigger: "strongrisk#"
+    replace: "\\strongrisk{$|$}"
+
+  - trigger: "weakrisk#"
+    replace: "\\weakrisk{$|$}"
 
 
 
