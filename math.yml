@@ -1017,6 +1017,9 @@ matches:
   - trigger: "balancedtime#"
     replace: "\\balancedtime"
 
+  - trigger: "weakbalancedtime#"
+    replace: "\\weakbalancedtime"
+
   - trigger: "estimator#"
     replace: "\\estimator"
 
