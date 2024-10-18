@@ -1050,6 +1050,11 @@ matches:
   - trigger: "weakrisk#"
     replace: "\\weakrisk{$|$}"
 
+  - trigger: "phantom#"
+    replace: "\\phantom{$|$}"
+
+  
+
 
 
 
