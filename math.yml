@@ -28,6 +28,9 @@ matches:
   - trigger: "question#"
     replace: "\\begin{question}\n$|$\n\\end{question}"
 
+  - trigger: "rtheoremrep#"
+    replace: "\\begin{rtheoremrep}\n$|$\n\\end{rtheoremrep}"
+
   - trigger: "proof#"
     replace: "\\begin{proof}\n$|$\n\\end{proof}"
     
