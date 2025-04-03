@@ -12,7 +12,7 @@ Send, {Left 1}
 return
 
 ^Space::
-Send, {Right 5}
+Send, {Left 1}
 return
 
 !s::
