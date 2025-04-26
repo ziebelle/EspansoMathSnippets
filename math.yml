@@ -31,6 +31,9 @@ matches:
   - trigger: "rtheoremrep#"
     replace: "\\begin{rtheoremrep}\n$|$\n\\end{rtheoremrep}"
 
+  - trigger: "questionrep#"
+    replace: "\\begin{questionrep}\n$|$\n\\end{questionrep}"
+
   - trigger: "proof#"
     replace: "\\begin{proof}\n$|$\n\\end{proof}"
     
