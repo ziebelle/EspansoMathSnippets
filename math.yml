@@ -1053,6 +1053,9 @@ matches:
   - trigger: "strongrisk#"
     replace: "\\strongrisk{$|$}"
 
+  - trigger: "paragraph#"
+    replace: "\\paragraph{$|$}"
+
   - trigger: "weakrisk#"
     replace: "\\weakrisk{$|$}"
 
