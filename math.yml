@@ -178,6 +178,12 @@ matches:
   - trigger: "vbr#"
     replace: "\\{$|$\\}"
 
+  - trigger: "hm#"
+    replace: "\\[$|$\\]"
+
+  - trigger: "cm#"
+    replace: "\\($|$\\)"
+
   - trigger: "obr#"
     replace: "($|$)"
 
