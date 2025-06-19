@@ -314,7 +314,7 @@ matches:
     replace: "\\int_{$|$}"
 
   - trigger: "sum#"
-    replace: "\\sum_{$|$=1}^n"
+    replace: "\\sum_{$|$=1}^{n}"
 
   - trigger: "newl#"
     replace: "\\\\"
