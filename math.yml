@@ -1073,6 +1073,9 @@ matches:
     
   - trigger: "inte#"
     replace: "\\inte"
+    
+  - trigger: "ln#"
+    replace: "\\ln"
 
   
 
