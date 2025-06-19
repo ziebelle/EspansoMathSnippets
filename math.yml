@@ -1067,6 +1067,12 @@ matches:
 
   - trigger: "phantom#"
     replace: "\\phantom{$|$}"
+    
+  - trigger: "lor#"
+    replace: "\\lor"
+    
+  - trigger: "inte#"
+    replace: "\\inte"
 
   
 
