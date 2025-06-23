@@ -28,8 +28,11 @@ matches:
   - trigger: "question#"
     replace: "\\begin{question}\n$|$\n\\end{question}"
 
-  - trigger: "rtheoremrep#"
-    replace: "\\begin{rtheoremrep}\n$|$\n\\end{rtheoremrep}"
+  - trigger: "theoremrep#"
+    replace: "\\begin{theoremrep}\n$|$\n\\end{theoremrep}"
+
+  - trigger: "lemmarep#"
+    replace: "\\begin{lemmarep}\n$|$\n\\end{lemmarep}"
 
   - trigger: "questionrep#"
     replace: "\\begin{questionrep}\n$|$\n\\end{questionrep}"
