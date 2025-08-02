@@ -444,9 +444,15 @@ matches:
     
   - trigger: "norm#"
     replace: "\\Vert $|$ \\Vert"
-    
+
+  - trigger: "done#"
+    replace: "\\done{$|$}"
+
+  - trigger: "todolist#"
+    replace: "\\begin{todolist}\n$|$\n\\end{todolist}"
+
   - trigger: "tcolorbox#"
-    replace: "\\begin{tcolorbox}[breakable]\n$|$\n\\end{tcolorbox}"
+    replace: "\\begin{tcolorbox}\n$|$\n\\end{tcolorbox}"
     
   - trigger: "clemma#"
     replace: "\\begin{tcolorbox}[breakable, colback=blue!10]\\begin{lemma}\n$|$\n\\end{lemma}\\end{tcolorbox}"
