@@ -446,7 +446,7 @@ matches:
     replace: "\\Vert $|$ \\Vert"
 
   - trigger: "done#"
-    replace: "\\done{$|$}"
+    replace: "\\done"
 
   - trigger: "todolist#"
     replace: "\\begin{todolist}\n$|$\n\\end{todolist}"
