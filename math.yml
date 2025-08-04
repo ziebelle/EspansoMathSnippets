@@ -451,6 +451,9 @@ matches:
   - trigger: "sinc#"
     replace: "\\mathrm{sinc}($|$)"
 
+  - trigger: "z#"
+    replace: "\\mathbb{Z}"
+
   - trigger: "todolist#"
     replace: "\\begin{todolist}\n$|$\n\\end{todolist}"
 
