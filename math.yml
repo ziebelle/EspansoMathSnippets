@@ -448,6 +448,9 @@ matches:
   - trigger: "done#"
     replace: "\\done"
 
+  - trigger: "sinc#"
+    replace: "\\mathrm{sinc}($|$)"
+
   - trigger: "todolist#"
     replace: "\\begin{todolist}\n$|$\n\\end{todolist}"
 
