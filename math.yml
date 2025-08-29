@@ -329,7 +329,10 @@ matches:
     replace: "\\mathrm{Var}"
 
   - trigger: "E#"
-    replace: "\\mathbb{E}"
+    replace: "\\E"
+
+  - trigger: "V#"
+    replace: "\\V"
 
   - trigger: "geq#"
     replace: "\\geq"
