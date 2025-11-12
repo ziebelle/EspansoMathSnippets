@@ -1,5 +1,7 @@
 # espanso match file
 # For a complete introduction, visit the official docs at: https://espanso.org/docs/
+backend: Inject
+
 matches:
   - trigger: "aligns#"
     replace: "\\begin{align*}\n$|$\n\\end{align*}"
@@ -1094,6 +1096,9 @@ matches:
     
   - trigger: "ln#"
     replace: "\\ln"
+
+  - trigger: "marks#"
+    replace: "„$|$“"
 
   
 
