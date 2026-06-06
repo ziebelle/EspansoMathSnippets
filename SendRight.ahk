@@ -31,6 +31,15 @@ return
 Send, {down}
 return
 
+!m::
+Send, {right}
+return
+
+!b::
+Send, {left}
+return
+
+
 !k::
 Send, {WheelUp}
 Return
