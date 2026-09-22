@@ -284,9 +284,15 @@ matches:
 
   - trigger: "tilde#"
     replace: "\\tilde{$|$}"
+  
+  - trigger: "wtilde#"
+    replace: "\\widetilde{$|$}"
 
   - trigger: "hat#"
     replace: "\\hat{$|$}"
+
+  - trigger: "what#"
+    replace: "\\widehat{$|$}"
 
   - trigger: "Lambda#"
     replace: "\\Lambda"
