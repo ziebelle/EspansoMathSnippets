@@ -337,7 +337,7 @@ matches:
     replace: "\\mathrm{Var}"
 
   - trigger: "E#"
-    replace: "\\E"
+    replace: "\\mathbb{E}"
 
   - trigger: "V#"
     replace: "\\V"
